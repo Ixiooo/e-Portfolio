@@ -604,10 +604,9 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: #0c476b;
+  background: #0c1d35;
   transition: 0.3s;
   width: 50%;
-  vertical-align: middle;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -615,7 +614,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a+a {
-  border-left: 1px solid #1c5f7e;
+  border-left: 1px solid #213949;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -631,18 +630,18 @@ section {
   bottom: 0;
 }
 
-.portfolio-link-text {
-  vertical-align: middle;
-  font-size: 20px;
-}
-
-.bx-chevron-right {
-  vertical-align: middle;
-}
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
+.breadcrumbs-header a, h2{
+  display: inline-block;
+}
+
+.breadcrumbs-header a i{
+  font-size: 24px;
+}
+
 .portfolio-details {
   padding-top: 40px;
 }
