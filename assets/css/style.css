@@ -680,6 +680,11 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+.portfolio-details .portfolio-info h4 {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
